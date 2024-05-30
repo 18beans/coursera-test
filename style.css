@@ -1,1 +1,59 @@
 body {background-color: azure;}
+h1 {
+	font-family: sans-serif;
+	font-style: italic;
+	text-align: center;
+margin-bottom: 5%;}
+
+section {width: 30%;
+	margin-left: 2%;
+		border: solid;
+		border-color: black;
+		border-width: 0.1em;
+		background-color: #cce6ff;
+		float: left;}
+
+#chicken {width: 30%;
+	margin-top:0%;
+	background-color: #ffd9b3;
+		float: right;
+		font-family: sans-serif;
+		font-style: bold;
+		text-align: center;
+		border-left: solid;
+		border-bottom: solid;
+		border-top: none;
+		border-right: none;
+		border-color: black;
+		border-width: 0.1em;}
+
+#beef {width: 30%;
+	margin-top:0%;
+	background-color: #ff8080;
+		float: right;
+	font-family: sans-serif;
+	font-style: bold;
+	text-align: center;
+	border-left: solid;
+		border-bottom: solid;
+		border-top: none;
+		border-right: none;
+	border-color: black;
+	border-width: 0.1em;}
+
+#sushi {width: 30%;
+	margin-top:0%;
+	background-color: #fe9650;
+		float: right;
+	font-family: sans-serif;
+	font-style: bold;
+	text-align: center;
+	border-left: solid;
+		border-bottom: solid;
+		border-top: none;
+		border-right: none;
+	border-color: black;
+	border-width: 0.1em;}
+p {font-family: sans-serif;
+font-style: bold;
+margin: 10%;}
