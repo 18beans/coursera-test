@@ -1,7 +1,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
-	section#chickmenu {width: 30%;
+	section#chickmenu {width: 45%;
 	margin-left: 2%; float: left;} 
-	section#beefmenu {width: 30%;
+	section#beefmenu {width: 45%;
 		margin-left: 2%; float: left;} 
 	section#sushimenu {width: 95%;
 			margin-left: 2%; margin-right: 2%; float: none;}
