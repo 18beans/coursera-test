@@ -1,17 +1,37 @@
+
+@media screen (min-width: 768px and max-width: 991px) {#chickmenu {width: 30%;
+	margin-left: 2%;} and {#beefmenu {width: 30%; margin-left: 2%;} {#sushimenu {width: 95%;
+		margin-left: 2%; margin-right: 2%; float: none;} and (max-width: 767px) {} }
 body {background-color: azure;}
 h1 {
 	font-family: sans-serif;
 	font-style: italic;
 	text-align: center;
-margin-bottom: 5%;}
+	margin-bottom: 5%;}
 
-section {width: 30%;
+#chickmenu {width: 30%;
 	margin-left: 2%;
 		border: solid;
 		border-color: black;
 		border-width: 0.1em;
 		background-color: #cce6ff;
 		float: left;}
+
+#beefmenu {width: 30%;
+			margin-left: 2%;
+			border: solid;
+			border-color: black;
+			border-width: 0.1em;
+			background-color: #cce6ff;
+			float: left;}
+
+#sushimenu {width: 30%;
+	margin-left: 2%;
+	border: solid;
+	border-color: black;
+	border-width: 0.1em;
+	background-color: #cce6ff;
+	float: left;}
 
 #chicken {width: 30%;
 	margin-top:0%;
