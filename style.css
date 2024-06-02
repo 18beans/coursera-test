@@ -75,7 +75,3 @@ h1 {
 p {font-family: sans-serif;
 font-style: bold;
 margin: 10%;}
-
-@media screen and (min-width: 768px and max-width: 991px) {#chickmenu {width: 30%;
-	margin-left: 2%;} and {#beefmenu {width: 30%; margin-left: 2%;} {#sushimenu {width: 95%;
-		margin-left: 2%; margin-right: 2%; float: none;} and (max-width: 767px) {} }
