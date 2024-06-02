@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	section#chickmenu {width: 30%;
 	margin-left: 2%; float: left;} 
 	section#beefmenu {width: 30%;
