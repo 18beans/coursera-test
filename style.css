@@ -1,19 +1,4 @@
-@media (min-width: 992px) {
-	section#chickmenu {width: 30%;
-	margin-left: 2%; float: left;}
-	section#beefmenu {width: 30%;
-		margin-left: 2%; float: left;}
-	section#sushimenu{width: 30%;
-			margin-left: 2%; float: left;}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	section#chickmenu {width: 45%;
-	margin-left: 2%; float: left;} 
-	section#beefmenu {width: 45%;
-		margin-left: 2%; float: left;} 
-	section#sushimenu {width: 95%;
-			margin-left: 2%; margin-right: 2%; float: none;}
-	}
+
 
 body {background-color: azure;}
 h1 {
@@ -22,29 +7,26 @@ h1 {
 	text-align: center;
 	margin-bottom: 5%;}
 
-section#chickmenu {width: 30%;
-	margin-left: 2%;
+section#chickmenu {
 		border: solid;
 		border-color: black;
 		border-width: 0.1em;
 		background-color: #cce6ff;
-		float: left;}
+		}
 
-section#beefmenu {width: 30%;
-			margin-left: 2%;
+section#beefmenu {
 			border: solid;
 			border-color: black;
 			border-width: 0.1em;
 			background-color: #cce6ff;
-			float: left;}
+			}
 
-section#sushimenu {width: 30%;
-	margin-left: 2%;
+section#sushimenu {
 	border: solid;
 	border-color: black;
 	border-width: 0.1em;
 	background-color: #cce6ff;
-	float: left;}
+	}
 
 #chicken {width: 30%;
 	margin-top:0%;
@@ -90,3 +72,26 @@ section#sushimenu {width: 30%;
 p {font-family: sans-serif;
 font-style: bold;
 margin: 10%;}
+
+
+/*large screen*/
+@media (min-width: 992px) {
+	section#chickmenu {width: 30%; height: 30%;
+	margin-left: 2%; margin-bottom: 2%; float: left;}
+	section#beefmenu {width: 30%; height: 30%;
+	margin-left: 2%; margin-bottom: 2%; float: left;}
+	section#sushimenu{width: 30%; height: 30%;
+	margin-left: 2%; float: left;}
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+	section#chickmenu {width: 45%; height: 20%;
+	margin-left: 2%; margin-bottom: 2%; float: left;} 
+	section#beefmenu {width: 45%; height: 20%;
+		margin-left: 2%; margin-bottom: 2%;float: left;} 
+	section#sushimenu {width: 95%; height: 20%;
+			margin-left: 2%; margin-right: 2%;  clear: both;}
+	}
+
+/*phone*/
