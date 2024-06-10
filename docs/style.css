@@ -1,8 +1,9 @@
-/*Global Styles*/
 body {
     font-size: 16px;
     color:rgb(251, 228, 180);
     background-color: #61122f; 
 }
 
-h1 {color:blueviolet;}
+h1 {
+    color:blueviolet;
+}
