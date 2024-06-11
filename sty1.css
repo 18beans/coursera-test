@@ -1,10 +1,17 @@
 body {
-    background-color: bisque;
+    font-size: 16px;
+    color:#003300;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #efa9c3;
+
 }
+
 header {
     background-color: #61122f;
 }
-
+  
 h1 {
     color:blueviolet;
 }
