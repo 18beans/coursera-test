@@ -9,13 +9,10 @@ body {
 }
 
 header {
-    background-color: #61122f;
+    background-color: bisque;
 }
   
 h1 {
-    color:blueviolet;
+    color:#003300;
 }
 
-p {
-    color:blue;
-}
